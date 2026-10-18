@@ -339,8 +339,7 @@ def is_already_turkish(text):
 
 def translate_to_turkish(text):
     """
-    Translates English text to fluent, academic Turkish using SSL-verified endpoint.
-    If text is already Turkish or translation fails, returns text gracefully.
+    [ÇOK ÖNEMLİ KURAL: YANITIN TAMAMI KESİNTİSİZ BİR ŞEKİLDE TÜRKÇE OLMALIDIR. HİÇBİR CÜMLE, PARAGRAF VEYA TERİM (TIBBİ LATİNCE STANDARTLAR HARİÇ) İNGİLİZCE BIKAKILMAMALIDIR. TÜM METNİ TÜRKÇEYE ÇEVİREREK VE TÜRKÇE CÜMLE YAPISIYLA ANALİZ ET.]
     """
     if not text or len(text.strip()) == 0:
         return text
